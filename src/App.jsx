@@ -22,7 +22,7 @@ import Account from './pages/Account';
 import Privacy from './pages/Privacy';
 import Notifications from './pages/Notifications';
 import Register from './pages/Register';
-import Login from './pages/Login';
+import Login from "./pages/login";
 import FAQ from './pages/FAQ';
 import NotFound from './pages/NotFound';
 import './App.css';
