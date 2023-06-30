@@ -1,0 +1,173 @@
+body {
+    font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+.home-data {
+    position: relative;
+}
+.image-slide {
+width:18vw ;
+height: 40vh;
+border-radius: 8px 8px 0 0;
+border: 2px solid blue;
+
+}
+.image-slideand-text-container {
+  
+    height: 20vh;
+
+     overflow: hidden;
+     transition: all 1s ease-in-out; 
+     border-radius: 8px 8px 0 0;
+}
+
+.image-slide-master-container:hover .image-slide-text-container {
+margin-left: 0;
+background-color: rgb(228, 212, 212);
+}
+
+.image-slide-master-container:hover .image-slide-img-container {
+    margin-left: -270px;
+    transition: all 1s ease-in-out;
+}
+.image-slide-master-container:hover {
+    background-color: rgb(245, 233, 233);
+   
+    border-radius:0 0 8px 8px;
+}
+
+
+.image-slide-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    width: 18vw;
+    background-color: rgb(228, 212, 212);
+    margin-left: 230px;
+    margin-top: -156px;
+    transition: all 1s ease-in-out;
+}
+
+.image-slide-text-title {
+    text-transform: uppercase;
+    color: rgb(80, 72, 72);
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: ;
+    text-decoration: underline;
+}
+
+.image-slide-text {
+    letter-spacing: 0.5px;
+    margin: 20px 35px;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-size: 18.5px;
+    text-align: justify;
+    color: rgb(75, 50, 50);
+}
+
+.image-slide-master-container {
+     width: 18vw;
+     
+    transition: all .5s ease-in-out;
+} 
+
+.car-properties {
+   display: flex;
+   gap: 10px;
+   margin-left:10px;
+   /* margin-top: -40px; */
+   
+}
+.car-properties-container {
+    /* box-shadow: 2px 3px 23px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 23px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 23px 8px rgba(0,0,0,0.75); */
+    background: #a8d5e5;
+  margin: -10px 5px 10px 5px;
+  box-shadow: 2px 2px 2px;
+}
+.car-size, .car-fuel-type {
+    font-size: 16.5px;
+}
+
+.car-transmission-type {
+    font-size: 17.5px;
+    margin-top: -18px;
+    margin-left: 10px;
+}
+
+.car-available {
+    display: flex;
+    gap: 15px;
+    margin-top:-30px ;
+    margin-left: 10px;
+}
+
+.car-year, .available {
+    font-size: 16.5px;
+   
+   
+}
+.overlay {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 1;
+  }
+/* .hire-rates-overlay {
+    position: fixed;
+    top: 250px;
+    left: 680px;
+    width: 40vw;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+    
+  } */
+  
+.car-name {
+    margin-top: -5px;
+    margin-left: 27px;
+   
+}
+
+
+/* tableStyles.css */
+.table-container {
+    width: 40vw;
+    }
+    .table-header {
+        background-color: #14aee6;
+        color: white;
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+       
+        padding: 8px;
+       
+      }
+      th {
+        font-size: 16.5px;
+      }
+      td {
+        background-color: #a8d5e5;
+      }
+      
+      
