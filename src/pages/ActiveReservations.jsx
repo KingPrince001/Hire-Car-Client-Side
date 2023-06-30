@@ -56,7 +56,7 @@ const ActiveReservations = () => {
   const fetchBookings = async () => {
     try {
       const response = await fetch(
-        `https://carhireapi.azurewebsites.net/${user.customerid}`,
+        `https://carhireapi.azurewebsites.net/bookings/${user.customerid}`,
         {
           method: "GET",
           headers: {
