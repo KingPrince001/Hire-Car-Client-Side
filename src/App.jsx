@@ -22,7 +22,7 @@ import Account from './pages/Account';
 import Privacy from './pages/Privacy';
 import Notifications from './pages/Notifications';
 import Register from './pages/Register';
-import Login from './pages/Login';
+import login from './pages/login';
 import FAQ from './pages/FAQ';
 import NotFound from './pages/NotFound';
 import './App.css';
@@ -134,7 +134,7 @@ return () => {
     <Route path='account' element={<Account />} />
     <Route path='privacy' element={<Privacy />} />
     <Route path='notifications' element={<Notifications />} />
-    <Route path='login' element={<Login />} />
+    <Route path='login' element={<login />} />
     <Route path='register' element={<Register />} />
     <Route path='FAQ' element={<FAQ />} />
      <Route path='/*' element={<NotFound />} />
