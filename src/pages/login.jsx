@@ -2,7 +2,9 @@ import LoginForm from "../components/login/LoginForm";
 import './login.css'
 import Redirect from "../components/Redirect";
 import LoginPageTitle from "../components/login/LoginPageTitle";
-const login =() => {
+
+
+const Login =() => {
   return (
     <div className="login-page">
       <LoginPageTitle />
@@ -15,4 +17,4 @@ const login =() => {
   )
 }
 
-export default login
+export default Login;
