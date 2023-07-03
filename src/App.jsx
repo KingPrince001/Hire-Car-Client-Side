@@ -117,6 +117,7 @@ return () => {
           <div className="footer-content">
             <img src={BusinessLogo} alt="Footer Image" className="footer-image" />
             <p className="footer-text">Get your best car deal</p>
+            <p className="footer-text">Created by <a href="https://github.com/KingPrince001">John Chege</a> &copy; 2023 | all rights reserved.</p>
           </div>
         </div>
     
